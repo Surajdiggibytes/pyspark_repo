@@ -1,8 +1,8 @@
 # pyspark_repo
 
-[13:12] Sanghavi
 
-Convert the Issue Date with the timestamp format. 
+
+1. Convert the Issue Date with the timestamp format. 
 
 Example:  
 
@@ -12,16 +12,16 @@ Input: 1648770999000 -> Output: 2022-03-31T23:56:39.000+0000
 
 Input: 1648770948000 -> Output: 2022-03-31T23:55:48.000+0000 
 
-Convert timestamp to date type    
+2. Convert timestamp to date type    
 
 Example: Input: 2022-03-31T23:55:33.000+0000 -> Output: 2022-03-31 
 
 Remove the starting extra space in Brand column for LG and Voltas fields 
 Replace null values with empty values in Country column 
 
-[13:13] Sanghavi
 
-Change the camel case columns to snake case  
+
+3. Change the camel case columns to snake case  
 
 Example: SourceId: source_id, TransactionNumber: transaction_number 
 
@@ -38,7 +38,7 @@ Input: 2021-12-27T08:22:42.445+0000 -> Output: 1640593362445
 Input: 2021-12-27T08:22:43.183+0000 -> Output: 1640593363183 
 
 
-3.Combine both the tables based on the Product Number  
+4.Combine both the tables based on the Product Number  
 
 and get all the fields in return. 
 And get the country as EN
